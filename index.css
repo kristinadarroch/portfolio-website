@@ -147,3 +147,30 @@ h2{
   animation: blink .75s linear infinite;
   opacity: .5;
 }
+.tech{
+  font-size: 50px;
+}
+.left-side{
+  width: 50%;
+}
+.right-side{
+  width: 50%;
+  display: flex;
+}
+.technologies{
+  display: flex;
+  flex-direction: row;
+}
+.comfort{
+  width: 50%;
+}
+.experience{
+  width: 50%;
+}
+.work-experience{
+  display: flex;
+  flex-direction: row;
+}
+.work-stuff{
+  width: 50%;
+}
