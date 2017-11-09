@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 @import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
 @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lora');
 /* Setting fade transition and default settings */
 body {
   color: #000;
@@ -163,9 +164,25 @@ h2{
 }
 .comfort{
   width: 50%;
+  text-align: left;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+}
+ul{
+  padding: 0;
+}
+.comfort-nav li{
+  list-style: none;
+}
+.work-nav li{
+  list-style: square;
+  max-width: 80%;
 }
 .experience{
   width: 50%;
+  text-align: left;
+  font-family: 'Lora', serif;
+  font-size: 17px;
 }
 .work-experience{
   display: flex;
@@ -173,4 +190,37 @@ h2{
 }
 .work-stuff{
   width: 50%;
+  text-align: left;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+}
+.divide{
+  width: 100%;
+  opacity: .5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 1.5px;
+  border: none;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    opacity: .3;
+    min-width: 250px;
+    z-index: 1;
+    text-align: left;
+}
+.dropdown-content a {
+    color: white;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
 }
